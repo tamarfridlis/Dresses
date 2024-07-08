@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Document</title>
+</head>
+<body dir="rtl"> 
+    <p>בס"ד</p>
+   <img src="./לוגו שקוף.png" class="logo">
+   <h1>ברוכים הבאים לאתר שמלות להשכרה</h1>
+    <div class="titleandForm">
+   <div class="titleForm">רוצים להיות מעודכנים?
+    <br/>הכניסו את פרטיכם ותהיו הראשונים לדעת כשהמלאי התחדש</div>
+    <form id="login-form">
+        <label for="name">שם ומשפחה</label>
+        <input type="text" id="name" name="name" placeholder="שם" required/>
+        <br />
+        <label for="cel">מספר טלפון</label>
+        <input type="text" id="cel" name="cel" placeholder="מספר טלפון" pattern=".{9,10}" required/>
+        <br />
+        <label for="mail">כתובת מייל</label>
+        <input type="email" id="mail" name="mail" placeholder="כתובת מייל" required>
+        <br />
+        <button type="submit" id="submit">אישור</button>  
+    </div>
+    </form>
+ <a href="./main.html" id="toMain">למעבר לאתר ללא רישום</a>
+</body>
+<script src="./login.js"></script>
+
+</html>

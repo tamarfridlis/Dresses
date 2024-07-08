@@ -1,0 +1,82 @@
+[
+  {
+    "description": "שמלה מהג'ייסון",
+    "price": "300",
+    "amount": "3",
+    "sizeDress": ["12","34","38"],
+    "colors": "black",
+    "place": "Jerusalem",
+    "phone": "0544793969",
+    "inputImage": "./שלנו/RON09376 (Copy)_LI.jpg"
+  },
+  {
+    "description": "שמלה שנייה מהג'ייסון",
+    "price": "400",
+    "amount": "1",
+    "sizeDress": ["40"],
+    "colors": "green",
+    "place": "ModiinIlit",
+    "phone": "0548498082",
+    "inputImage": "./שלנו/dress.jpg"
+  },
+  {
+    "description": "שמלה שלישית מהג'ייסון",
+    "price": "100",
+    "amount": "2",
+    "sizeDress": ["3","12"],
+    "colors": "green",
+    "place": "chaifa",
+    "phone": "089791372",
+    "inputImage": "../שלנו/IMG-20210729-WA0114_LI.jpg"
+  },
+  {
+    "description": "שמלה רביעית מהג'ייסון",
+    "price": "200",
+    "amount": "5",
+    "sizeDress": ["14","12","10","8","6"],
+    "colors": "gold",
+    "place": "lod",
+    "phone": "0542233969",
+    "inputImage": "./שלנו/אורטל בטיטו זהב.jpg"
+  },
+  {
+    "description": "שמלה חמשית מהג'ייסון",
+    "price": "350",
+    "amount": "3",
+    "sizeDress": ["38","30","30"],
+    "colors": "pink",
+    "place": "rishon-lezion",
+    "phone": "0548443969",
+    "inputImage": "./שלנו/חני סימונס 2.jpg"
+  },
+  {
+    "description": "שמלה שישית מהג'ייסון",
+    "price": "350",
+    "amount": "2",
+    "sizeDress": ["22","36"],
+    "colors": "purple",
+    "place": "zafet",
+    "phone": "0548412522",
+    "inputImage": "./שלנו/אילת מיצמכר סגולים.jpg"
+  },
+  {
+    "description": "שמלה שביעית מהג'ייסון",
+    "price": "400",
+    "amount": "4",
+    "sizeDress": ["10","12","6","16"],
+    "colors": "black",
+    "place": "naharia",
+    "phone": "0548453969",
+    "inputImage": "./שלנו/חני קסלר 2.jpg"
+  },
+  {
+    "description": "שמלה שמינית מהג'ייסון",
+    "price": "500",
+    "amount": "2",
+    "sizeDress": ["34","38"],
+    "colors": "white",
+    "place": "tel-aviv",
+    "phone": "025856701",
+    "inputImage": "./שלנו/מצליח.jpg"
+  }
+]

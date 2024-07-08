@@ -1,0 +1,74 @@
+body {
+    background-color: rgb(255, 240, 224);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+
+}
+
+.decoratePicture {
+    max-width: 200px;
+    height: auto;
+}
+
+#addSimla {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+#describe {
+    border: 2px solid rgb(222, 136, 150);
+    border-radius: 4px;
+}
+
+#amount {
+    border: 2px solid rgb(222, 136, 150);
+    border-radius: 4px;
+}
+
+/* #reshimatMidot{
+    border: 2px solid rgb(222, 136, 150);
+    border-radius: 4px;
+} */
+#price {
+    border: 2px solid rgb(222, 136, 150);
+    border-radius: 4px;
+}
+
+#colors {
+    border: 2px solid rgb(222, 136, 150);
+    border-radius: 4px;
+}
+
+#place {
+    border: 2px solid rgb(222, 136, 150);
+    border-radius: 4px;
+}
+
+#phone {
+    border: 2px solid rgb(222, 136, 150);
+    border-radius: 4px;
+}
+
+#email {
+    border: 2px solid rgb(222, 136, 150);
+    border-radius: 4px;
+}
+
+#submit {
+    border: 2px solid rgb(222, 136, 150);
+    border-radius: 4px;
+}
+
+#ishur {
+    border: 2px solid rgb(222, 136, 150);
+    border-radius: 4px;
+}

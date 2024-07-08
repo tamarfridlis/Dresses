@@ -1,0 +1,28 @@
+@media only screen and (max-width:800px) {
+    .nav {
+        width: 120%;
+        margin-right: -25px;
+    }
+
+    #chooseColor {
+        width: 50px;
+    }
+    #chooseSize{
+        width: 50px;
+    }
+    #chooseArea{
+        width: 50px;
+    }
+    #sets {
+        width: 50px;
+    }
+    #navButtons{
+        font-size: 14px;
+    }
+    #navSorts{
+        font-size: 14px;
+    }
+    #container{
+        padding-right: 35px;
+    }
+}

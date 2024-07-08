@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+    <a href="./bootsrap/bootstrap-3.4.1-dist/"></a>
+    <link rel="stylesheet" href="./responsiv.css">
+    <title>Document</title>
+</head>
+<body dir="rtl">
+    <div class="nav">
+        <div id="navButtons">
+            <img src="./לוגו שקוף.png" class="logo"> 
+            <span class="spanINnav"> <a href="./addDress.html" id="addDress" >להוספת שמלה משלך</a> </span>
+            <span class="spanINnav">
+                <a href="main.html" id="toAll"> לכל השמלות </a>
+            </span>
+            <span class="spanINnav">
+                <a href="./catalog.pdf" id="download">הורדת הקטלוג</a>
+            </span>
+            <span class="spanINnav" >
+                <a href="./about.html" id="about"> קצת עלינו</a>
+            </span>
+        </div>
+        <div id="navSorts">
+            
+            <span>
+                <label for="chooseColor">מיון לפי גוון</label>
+                <select name="chooseColor" class="form-select" id="chooseColor">
+                    <option value="blank"></option>
+                    <option value="black">שחור</option>
+                    <option value="white">לבן</option>
+                    <option value="red">אדום</option>
+                    <option value="blue">כחול</option>
+                    <option value="green">ירוק</option>
+                    <option value="purple">סגול</option>
+                    <option value="pink">ורוד</option>
+                    <option value="gold">זהב</option>
+                    <option value="silver">כסף</option>
+                    <option value="brown">חום</option>
+                    <option value="maroon">בורדו</option>
+                </select>
+            </span>
+            <span class="wrapSize">
+                <input type="number"  name="chooseSize" min="1" id="chooseSize">
+                <label for="chooseSize" >מיון לפי מידה</label>
+            </span>
+            <span>
+                <label for="chooseArea">מיון לפי אזור</label>
+                <select name="chooseArea" id="chooseArea" class="form-select">
+                    <option value="blank"></option>
+                    <option value="ofakim">אופקים</option>
+                    <option value="elad">אלעד</option>
+                    <option value="ashdod">אשדוד</option>
+                    <option value="ashkelon">אשקלון</option>
+                    <option value="ber-sheva">באר שבע</option>
+                    <option value="beitar">ביתר</option>
+                    <option value="beit-shemesh">בית שמש</option>
+                    <option value="bneiBrak">בני ברק</option>
+                    <option value="bat-yam">בת ים</option>
+                    <option value="chadera">חדרה</option>
+                    <option value="chaifa">חיפה</option>
+                    <option value="tveria">טבריה</option>
+                    <option value="Jerusalem">ירושלים והסביבה</option>
+                    <option value="carmiel">כרמיאל</option>
+                    <option value="lod">לוד</option>
+                    <option value="ModiinIlit">מודיעין עילית</option>
+                    <option value="naharia">נהריה</option>
+                    <option value="netania">נתניה</option>
+                    <option value="netivot">נתיבות</option>
+                    <option value="arad">ערד</option>
+                    <option value="petach-tikva">פתח תקווה</option>
+                    <option value="zafet">צפת</option>
+                    <option value="kiryat-gat">קרית גת</option>
+                    <option value="kiryat-shmoana">קרית שמונה</option>
+                    <option value="rishon-lezion">ראשון לציון</option>
+                    <option value="rechovot">רחובות</option>
+                    <option value="tel-aviv">תל אביב</option>
+                    <option value="north">אזור אחר בצפון</option>
+                    <option value="south">אזור אחר בדרום</option>
+                    <option value="center">אזור אחר במרכז</option>
+                </select>
+            </span>
+            <span>
+                <label for="sets">סטים</label>
+                <select name="sets" class="form-select" id="sets">
+                    <option value="blank"></option>
+                    <option value="yesSetim">סטים</option>
+                </select>
+            </span>
+        </div>
+
+    </div>
+
+
+    <div id="allDresses">
+        <div class="container " id="container">
+            <!-- <div class="card" id="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title"></h5>
+                  <p class="card-text"></p>
+                  <a href="#" class="btn btn-primary">לפרטים</a>
+                  <button class="btn btn-primary"> </button>
+                </div>
+              </div> -->
+
+          </div>
+        <!-- <div class="container text-center">
+            <div class="row">
+              <div class="col">
+               
+              </div>
+              <div class="col">
+                
+              </div>
+              <div class="col">
+                
+              </div>
+            </div>
+            
+          </div>           -->
+    </div>    
+
+</body>
+
+<script src="./js.json"></script>
+<script src="./jquery-3.6.4.min.js"></script>
+<script src="./main.js"></script>
+</html>

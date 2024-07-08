@@ -1,0 +1,161 @@
+body {
+    background-color: #fff0e0;
+}
+
+.logo {
+    width: 149px;
+    height: 117px;
+    margin-top: -53px;
+}
+
+#navButtons {
+    width: 80%;
+    height: 60px;
+    margin: auto;
+    margin-top: 25px;
+    background-color: rgb(255, 192, 203);
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 20px;
+}
+
+#navSorts {
+    padding-top: 15px;
+    width: 80%;
+    height: 73px;
+    margin: auto;
+    /* margin-top: 25px; */
+    background-color: #de8896;
+    /* border-color: rgb(128, 0, 32); */
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+/* .nav{
+    max-width: 100%;
+} */
+#chooseColor {
+    width: 120px;
+    height: 25px;
+    border: 2px solid rgb(255, 192, 203);
+    border-radius: 4px;
+
+}
+
+#chooseSize {
+    width: 120px;
+    height: 25px;
+    border: 2px solid rgb(255, 192, 203);
+    border-radius: 4px;
+}
+.wrapSize{
+    display: flex;
+    flex-direction: column-reverse; 
+    margin-bottom: 5px;
+}
+  
+#chooseArea {
+    width: 120px;
+    height: 25px;
+    border: 2px solid rgb(255, 192, 203);
+    border-radius: 4px;
+
+}
+
+#sets {
+    width: 120px;
+    height: 25px;
+    border: 2px solid rgb(255, 192, 203);
+    border-radius: 4px;
+}
+
+#addDress {
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+
+#download {
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+
+#about {
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+
+#toAll {
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+}
+
+.outdiv {
+    border: solid 0.5px black;
+    margin-top: 40px;
+    background-color: rgb(255, 192, 203);
+    width: 40vh;
+    height: 60vh;
+    max-width: 100%;
+
+}
+
+.img {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    border: 3px solid #de8896;
+    border-radius: 10%;
+    margin: 5%;
+    margin-right: 70px;
+}
+
+.describe {
+    margin: 10px;
+    width: 10px;
+    height: 10px;
+}
+
+#allDresses {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.phone {
+    opacity: 0;
+    margin-right: 162px;
+    margin-top: -30px;
+}
+
+.phoneShow {
+    opacity: 1;
+}
+
+.toTake {
+    width: 80px;
+    height: 30px;
+    margin-right: 105px;
+    /* לשאול את המורה למה לפעמים שמשחקים עם הcss נהרס כפתורים אינפוטים וכזה */
+}
+.spanINnav{
+    text-align: center;
+}
+.place{
+    margin-top: -5%;
+}

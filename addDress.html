@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="addDress.css">
+</head>
+
+<body dir="rtl">
+    <h1 id="welcome">שלום </h1>
+    <h2 id="">על מנת להוסיף שמלה יש להכניס את הפרטים הבאים:</h2>
+    <form id="addSimla">
+        <label for="describe">תאור קצר על השמלה</label>
+        <br>
+        <textarea name="describe" id="describe" cols="30" rows="10"></textarea>
+        <br>
+        <label for="amount">כמות שמלות</label>
+        <br>
+        <input type="text" id="amount">
+        <br>
+        <button id="ishur" type="button">אישור כמות</button>
+        <br>
+        <ul id="reshimatMidot"></ul>
+        <label for="price">מחיר</label>
+        <br>
+        <input type="number" min="1" name="price" id="price">
+        <br>
+        <label for="colors">גוון</label>
+        <br>
+        <!-- <input type="text" name="colors" id="colors"> -->
+        <select name="chooseColor" id="colors">
+            <option value="blank"></option>
+            <option value="black">שחור</option>
+            <option value="white">לבן</option>
+            <option value="red">אדום</option>
+            <option value="blue">כחול</option>
+            <option value="green">ירוק</option>
+            <option value="purple">סגול</option>
+            <option value="pink">ורוד</option>
+            <option value="gold">זהב</option>
+            <option value="silver">כסף</option>
+            <option value="brown">חום</option>
+            <option value="maroon">בורדו</option>
+        </select>
+        <br>
+        <label for="place">אזור</label>
+        <br>
+        <!-- <input type="text" name="place" id="place"> -->
+        <select name="place" id="place">
+            <option value="blank"></option>
+            <option value="ofakim">אופקים</option>
+            <option value="elad">אלעד</option>
+            <option value="ashdod">אשדוד</option>
+            <option value="ashkelon">אשקלון</option>
+            <option value="ber-sheva">באר שבע</option>
+            <option value="beitar">ביתר</option>
+            <option value="beit-shemesh">בית שמש</option>
+            <option value="bneiBrak">בני ברק</option>
+            <option value="bat-yam">בת ים</option>
+            <option value="chadera">חדרה</option>
+            <option value="chaifa">חיפה</option>
+            <option value="tveria">טבריה</option>
+            <option value="Jerusalem">ירושלים והסביבה</option>
+            <option value="carmiel">כרמיאל</option>
+            <option value="lod">לוד</option>
+            <option value="ModiinIlit">מודיעין עילית</option>
+            <option value="naharia">נהריה</option>
+            <option value="netania">נתניה</option>
+            <option value="netivot">נתיבות</option>
+            <option value="arad">ערד</option>
+            <option value="petach-tikva">פתח תקווה</option>
+            <option value="zafet">צפת</option>
+            <option value="kiryat-gat">קרית גת</option>
+            <option value="kiryat-shmoana">קרית שמונה</option>
+            <option value="rishon-lezion">ראשון לציון</option>
+            <option value="rechovot">רחובות</option>
+            <option value="tel-aviv">תל אביב</option>
+            <option value="north">אזור אחר בצפון</option>
+            <option value="south">אזור אחר בדרום</option>
+            <option value="center">אזור אחר במרכז</option>
+        </select>
+        <br>
+        <label for="phone">טלפון</label>
+        <br>
+        <input type="text" name="phone" id="phone" pattern=".{9,10}">
+        <br>
+        <label for="email">כתובת מייל</label>
+        <br>
+        <input type="email" name="email" id="email" placeholder="לא חובה">
+        <br>
+        <input type="file" name="imageUpload" id="imageUpload" accept="image/*" width="50" height="50">
+        <br>
+        <img id="previewImage" src="">
+        <br>
+        <button type="submit" id="submit">אישור</button>
+    </form>
+</body>
+
+<script src="./addDress.js"></script>
+
+</html>
